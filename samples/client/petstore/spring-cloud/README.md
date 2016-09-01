@@ -26,7 +26,7 @@ Add this dependency to your project's POM:
 
 ```xml
 <dependency>
-    <groupId>io.swagger</groupId>
+    <groupId>com.theworkshop</groupId>
     <artifactId>swagger-petstore-spring-cloud</artifactId>
     <version>1.0.0</version>
     <scope>compile</scope>
