@@ -24,7 +24,7 @@ After the client library is installed/deployed, you can use it in your Maven pro
 
 ```xml
 <dependency>
-    <groupId>io.swagger</groupId>
+    <groupId>com.theworkshop</groupId>
     <artifactId>swagger-petstore-retrofit2</artifactId>
     <version>1.0.0</version>
     <scope>compile</scope>

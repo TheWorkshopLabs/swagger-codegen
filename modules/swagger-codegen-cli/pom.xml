@@ -1,7 +1,7 @@
 <project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <parent>
-        <groupId>io.swagger</groupId>
+        <groupId>com.theworkshop</groupId>
         <artifactId>swagger-codegen-project</artifactId>
         <version>2.2.1-SNAPSHOT</version>
         <relativePath>../..</relativePath>
@@ -11,7 +11,7 @@
     <artifactId>swagger-codegen-cli</artifactId>
     <packaging>jar</packaging>
 
-    <name>swagger-codegen (executable)</name>
+    <name>com.theworkshop:swagger-codegen (executable)</name>
 
     <build>
         <finalName>swagger-codegen-cli</finalName>
@@ -66,7 +66,7 @@
     <dependencies>
 
         <dependency>
-            <groupId>io.swagger</groupId>
+            <groupId>com.theworkshop</groupId>
             <artifactId>swagger-codegen</artifactId>
             <version>${project.version}</version>
         </dependency>
