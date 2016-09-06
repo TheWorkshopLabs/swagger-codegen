@@ -27,7 +27,10 @@ before_install:
   # show host table to confirm petstore.swagger.io is mapped to localhost
   - cat /etc/hosts
 
-install: true
+install:
+  # Add Godeps dependencies to GOPATH and PATH
+   - export GOPATH="${TRAVIS_BUILD_DIR}/Godeps/_workspace"
+   - export PATH="${TRAVIS_BUILD_DIR}/Godeps/_workspace/bin:$PATH"
 
 script:
   - mvn verify -Psamples
